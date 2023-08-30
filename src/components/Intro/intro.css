@@ -10,8 +10,8 @@
 .bg {
   margin-top: 7rem;
   width: 14vw;
-  height: 35vh;
-  border-radius: 120px;
+  height: 39vh;
+  border-radius: 20px;
   object-fit: cover;
   right: 0;
   top: 0;
@@ -21,7 +21,7 @@
 
 .introContent {
   margin-top: 9rem;
-  height: 60vh;
+  height: 63vh;
   width: 100vw;
   padding: 1rem;
   font-size: 2.5rem;
@@ -35,12 +35,14 @@
   font-weight: lighter;
 }
 .introName {
-  color: yellow;
+  /* color: #eba234; */
+  color: cyan;
 }
 .introPara {
-  font-size: medium;
-  font-weight: 300;
-  letter-spacing: 1px;
+  /* font-size: medium; */
+  font-size: 1.3rem;
+  font-weight: 200;
+  /* letter-spacing: 1px; */
 }
 
 @media screen and (max-width: 840px) {
@@ -48,8 +50,8 @@
     margin-right: 3.5rem;
     right: 20vw;
     width: 35vw;
-    height: 35vh;
-    border-radius: 120px;
+    height: 39vh;
+    border-radius: 20px;
   }
   .introContent {
     font-size: 10vw;
@@ -58,13 +60,13 @@
     font-size: 4vw;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1330px) {
   .bg {
     margin-right: 3.5rem;
     right: 20vw;
     width: 35vw;
-    height: 35vh;
-    border-radius: 120px;
+    height: 39vh;
+    border-radius: 20px;
   }
   .introContent {
     font-size: 9vw;

@@ -16,37 +16,38 @@ const Skills = () => {
         <div className="skillBar">
           <img src="" alt="" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Front End Skills</h2>
+            <p class="skills-heading">Front End Skills</p>
             <p>
               Knowledge in HTML, CSS, and JavaScript, the core languages of
-              front-end development.Strong understanding of responsive web
-              design principles and the ability to create mobile-friendly
-              layouts. Knowledge of JavaScript front-end library React.
+              front-end development. Knowledge of JavaScript front-end library
+              React.
             </p>
           </div>
         </div>
         <div className="skillBar">
           <img src="" alt="" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Back End Skills</h2>
+          <p class="skills-heading">Back End Skills</p>
             <p>
-              Knowledge in Node.js, Express.js, GraphQL,APIs the core languages
-              of Back end development.
+              Good understanding in Node.js, Express.js, REST APIs the core
+              languages of Back end development.
             </p>
           </div>
         </div>
         <div className="skillBar">
           <img src="" alt="" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Databases</h2>
-            <p>Good Knowledge in MySQL and MonogoDB(Mongoose ORM)</p>
+          <p class="skills-heading">Databases</p>
+            <p>
+              Good Knowledge in MySQL and MongoDB (Mongoose ORM). Knowledge in
+            database design and RDBMS
+            </p>
           </div>
         </div>
       </div>
+      <button className="skillBtn">Download My Resume</button>
     </section>
   );
 };
 export default Skills;
-{
-  /* <span className=""></span> */
-}
+
