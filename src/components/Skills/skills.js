@@ -27,7 +27,7 @@ const Skills = () => {
         <div className="skillBar">
           <img src="" alt="" className="skillBarImg" />
           <div className="skillBarText">
-          <p class="skills-heading">Back End Skills</p>
+            <p class="skills-heading">Back End Skills</p>
             <p>
               Good understanding in Node.js, Express.js, REST APIs the core
               languages of Back end development.
@@ -37,17 +37,21 @@ const Skills = () => {
         <div className="skillBar">
           <img src="" alt="" className="skillBarImg" />
           <div className="skillBarText">
-          <p class="skills-heading">Databases</p>
+            <p class="skills-heading">Databases</p>
             <p>
               Good Knowledge in MySQL and MongoDB (Mongoose ORM). Knowledge in
-            database design and RDBMS
+              database design and RDBMS
             </p>
           </div>
         </div>
       </div>
-      <button className="skillBtn">Download My Resume</button>
+      <div className="skillBtn">
+        <a href="./Shiby-Resume.pdf" className="color-text" download>
+          Download my Resume
+        </a>
+      </div>
+      {/* <button className="skillBtn">Download My Resume</button> */}
     </section>
   );
 };
 export default Skills;
-

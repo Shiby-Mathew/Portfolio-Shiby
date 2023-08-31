@@ -18,10 +18,34 @@ const Portfolio = () => {
         technologies and thought processes behind it.
       </span>
       <div className="worksImgs">
-        <img src={portfolio} alt="" className="worksImag" />
-        <img src={portfolio1} alt="" className="worksImag" />
-        <img src={portfolio2} alt="" className="worksImag" />
-        <img src={portfolio3} alt="" className="worksImag" />
+        <a
+          href="https://ecommercerevolve-app-5084df896f21.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={portfolio} alt="" className="worksImag" />
+        </a>
+        <a
+          href="https://cityreviwr.herokuapp.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={portfolio1} alt="" className="worksImag" />
+        </a>
+        <a
+          href="https://maxkeable.github.io/SpaceLink/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={portfolio2} alt="" className="worksImag" />
+        </a>
+        <a
+          href="https://shiby-mathew.github.io/Weather-Dashboard/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={portfolio3} alt="" className="worksImag" />
+        </a>
         {/* <img src={portfolio4} alt="" className="worksImag" />
         <img src={portfolio5} alt="" className="worksImag" /> */}
       </div>

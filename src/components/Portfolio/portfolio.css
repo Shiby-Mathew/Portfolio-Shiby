@@ -40,4 +40,5 @@
   object-fit: cover;
   /* height: 20rem; */
   margin: 1rem;
+  cursor: pointer;
 }
