@@ -18,7 +18,7 @@ const Skills = () => {
           <div className="skillBarText">
             <p class="skills-heading">Front End Skills</p>
             <p>
-              Knowledge in HTML, CSS, and JavaScript, the core languages of
+              Knowledge in HTML, CSS and JavaScript, the core languages of
               front-end development. Knowledge of JavaScript front-end library
               React.
             </p>

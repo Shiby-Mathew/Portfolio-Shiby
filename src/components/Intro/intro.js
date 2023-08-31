@@ -13,7 +13,7 @@ const Intro = () => {
         </span>
         <p className="introPara">
           I am a skilled and passionate developer, recently graduated Full Stack
-          Developer <br /> Bootcamp from University of Sydney
+          Developer <br /> Bootcamp from <strong> University of Sydney</strong>
         </p>
       </div>
       <img src={bg} alt="bg" className="bg" />

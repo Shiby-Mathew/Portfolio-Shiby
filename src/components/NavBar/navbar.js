@@ -8,10 +8,50 @@ const Navbar = () => {
     <nav className="navbar">
       {/* <img src={logo} alt="logo" className="logo" /> */}
       <div className="desktopMenu">
-        <Link className="desktopMenuListItem">Home</Link>
-        <Link className="desktopMenuListItem">About</Link>
-        <Link className="desktopMenuListItem">Portfolio</Link>
-        <Link className="desktopMenuListItem">Contact Me</Link>
+        <Link
+          activeClass="active"
+          to="intro"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          Home
+        </Link>
+        <Link
+          activeClass="active"
+          to="skills"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          About
+        </Link>
+        <Link
+          activeClass="active"
+          to="works"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          Portfolio
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktopMenuListItem"
+        >
+          Contact Me
+        </Link>
       </div>
       {/* <button className="desktopMenuButton">
         <img src="" alt="" className="desktopMenuImg" />
@@ -21,11 +61,3 @@ const Navbar = () => {
   );
 };
 export default Navbar;
-
-// import React from "react"
-// const navbar=()=>{
-//     return(
-//         <div>navbar</div>
-//     )
-// }
-// export default navbar
