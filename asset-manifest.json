@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-shiby/static/css/main.de7b0454.css",
+    "main.css": "/portfolio-shiby/static/css/main.bd2d7401.css",
     "main.js": "/portfolio-shiby/static/js/main.5d64d697.js",
     "static/media/shiby.jpg": "/portfolio-shiby/static/media/shiby.9db9b3d1a4c4ba01ed07.jpg",
     "static/media/pic1.jpg": "/portfolio-shiby/static/media/pic1.aedb35069d25fa601e51.jpg",
     "index.html": "/portfolio-shiby/index.html",
-    "main.de7b0454.css.map": "/portfolio-shiby/static/css/main.de7b0454.css.map",
+    "main.bd2d7401.css.map": "/portfolio-shiby/static/css/main.bd2d7401.css.map",
     "main.5d64d697.js.map": "/portfolio-shiby/static/js/main.5d64d697.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7b0454.css",
+    "static/css/main.bd2d7401.css",
     "static/js/main.5d64d697.js"
   ]
 }
