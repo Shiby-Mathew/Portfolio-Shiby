@@ -12,7 +12,7 @@ const Footer = () => {
             rel="noreferrer"
             className="link"
           >
-            <FaLinkedin style={{ color: "cyan", fontSize: "26px" }} />
+            <FaLinkedin style={{ color: "white", fontSize: "26px" }} />
           </a>
           <a
             href="mailto:name@gmail.com"
@@ -20,7 +20,7 @@ const Footer = () => {
             rel="noreferrer"
             className="link"
           >
-            <span style={{ textDecoration: "none", color: "cyan" }}>
+            <span style={{ textDecoration: "none", color: "white" }}>
               {" "}
               Email
             </span>
@@ -31,7 +31,7 @@ const Footer = () => {
             rel="noreferrer"
             className="link"
           >
-            <FaGithub style={{ color: "cyan", fontSize: "26px" }} />
+            <FaGithub style={{ color: "white", fontSize: "26px" }} />
           </a>
         </address>
         Copyright &#169; 2023 Shiby Portfolio. All right recevied
