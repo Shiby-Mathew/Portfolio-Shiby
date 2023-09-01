@@ -24,7 +24,13 @@ logo {
   /* font-size: 20px; */
 }
 .desktopMenuListItem:hover {
-  color: cyan;
+  /* color: cyan; */
+  opacity: 0.5;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid cyan;
+  border-bottom: 1px solid white;
+}
+
+.desktopMenuListItem.active {
+  opacity: 0.5;
+  /* color: cyan; */
 }

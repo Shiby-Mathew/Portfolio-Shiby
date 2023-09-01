@@ -20,16 +20,14 @@
 }
 
 .introContent {
-  margin-top: 9rem;
+  margin-top: 15rem;
   height: 63vh;
   width: 60vw;
   padding: 1rem;
   font-size: 2.5rem;
-  /* margin-bottom: -1rem; */
-  /* font-weight: 500; */
+
   display: flex;
   flex-direction: column;
-  /* height:60%; */
 }
 .hello {
   font-size: 1.5rem;
@@ -40,10 +38,8 @@
   color: cyan;
 }
 .introPara {
-  /* font-size: medium; */
   font-size: 1.3rem;
   font-weight: 200;
-  /* letter-spacing: 1px; */
 }
 
 @media screen and (max-width: 840px) {
