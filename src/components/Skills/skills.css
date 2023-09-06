@@ -60,3 +60,18 @@
 .color-text {
   color: white;
 }
+
+/* @media screen and (max-width: 1500px) {
+  .skillTitle {
+    margin-top: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+  .skillDesc {
+    font-size: 1.3rem;
+    font-weight: 200;
+    max-width: 60rem;
+    padding: 0 2rem;
+  }
+} */

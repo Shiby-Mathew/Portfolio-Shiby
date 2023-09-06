@@ -2,7 +2,11 @@
   min-height: calc(100vh - 40rem);
   width: 100vw;
   max-width: 60rem;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -14,7 +18,7 @@
 .contactPageTitle {
   /* margin: 2rem 0; */
   margin-top: 6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   margin-left: 0;
   margin-right: 0;
   font-size: 2.5rem;
@@ -27,7 +31,11 @@
   padding: 1rem;
 }
 .contactForm {
-  margin: 1rem;
+  /* margin: 1rem; */
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,11 +61,15 @@
   background: black;
   border: none;
   border-radius: 0.5rem;
-  margin: 2rem;
+  /* margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem; */
+  margin: 3rem 2rem 7rem 2rem;
   padding: 0.75rem 3.5rem;
   color: white;
 }
-.links {
+/* .links {
   display: flex;
   flex-wrap: wrap;
 }
@@ -65,4 +77,4 @@
   height: 3rem;
   width: 3rem;
   margin: 0 0.75rem;
-}
+} */
