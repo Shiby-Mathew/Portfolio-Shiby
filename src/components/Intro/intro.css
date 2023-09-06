@@ -1,5 +1,5 @@
 #intro {
-  height: calc(100vh-4rem);
+  height: calc(70vh- 4rem);
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
@@ -20,15 +20,14 @@
 }
 
 .introContent {
-  margin-top: 9rem;
+  margin-top: 15rem;
   height: 63vh;
-  width: 100vw;
+  width: 60vw;
   padding: 1rem;
   font-size: 2.5rem;
-  /* font-weight: 500; */
+
   display: flex;
   flex-direction: column;
-  /* height:60%; */
 }
 .hello {
   font-size: 1.5rem;
@@ -39,10 +38,8 @@
   color: cyan;
 }
 .introPara {
-  /* font-size: medium; */
   font-size: 1.3rem;
   font-weight: 200;
-  /* letter-spacing: 1px; */
 }
 
 @media screen and (max-width: 840px) {
@@ -60,7 +57,7 @@
     font-size: 4vw;
   }
 }
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1500px) {
   .bg {
     margin-right: 3.5rem;
     right: 20vw;
