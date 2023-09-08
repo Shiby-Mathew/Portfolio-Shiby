@@ -24,7 +24,7 @@
   height: 63vh;
   width: 60vw;
   padding: 1rem;
-  font-size: 2.5rem;
+  font-size: 3vw;
 
   display: flex;
   flex-direction: column;
@@ -42,30 +42,57 @@
   font-weight: 200;
 }
 
+@media screen and (max-width: 480px) {
+  .bg {
+    margin-right: 0;
+    right: 5rem;
+    /* width: 15vw;
+    height: 35vh; */
+    width: 50vw;
+    height: 30vh;
+    border-radius: 20px;
+  }
+  .introContent {
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+  }
+  .introPara {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 840px) {
   .bg {
     margin-right: 3.5rem;
     right: 20vw;
-    width: 35vw;
-    height: 39vh;
+    width: 20vw;
+    height: 24vh;
     border-radius: 20px;
   }
   .introContent {
-    font-size: 10vw;
+    font-size: 3rem;
   }
-  .hello {
+  /* .hello {
     font-size: 4vw;
-  }
+  } */
 }
 @media screen and (max-width: 1500px) {
   .bg {
-    margin-right: 3.5rem;
-    right: 20vw;
-    width: 35vw;
+    margin-right: 1.5rem;
+    /* margin-right: 0; */
+    right: 5rem;
+    /* width: 15vw;
+    height: 35vh; */
+    width: 30vw;
     height: 39vh;
     border-radius: 20px;
   }
   .introContent {
-    font-size: 9vw;
+    font-size: 1rem;
+
+    margin-top: 3.5rem;
+  }
+  .introText {
+    font-size: 1.5rem;
   }
 }
