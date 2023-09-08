@@ -1,6 +1,6 @@
 #intro {
   height: calc(70vh- 4rem);
-  width: 100vw;
+  width: 80vw;
   max-width: 75rem;
   margin: 0 auto;
   overflow: hidden;
@@ -8,7 +8,7 @@
 }
 
 .bg {
-  margin-top: 7rem;
+  margin-top: 10rem;
   width: 14vw;
   height: 39vh;
   border-radius: 20px;
@@ -20,7 +20,7 @@
 }
 
 .introContent {
-  margin-top: 15rem;
+  margin-top: 13rem;
   height: 63vh;
   width: 60vw;
   padding: 1rem;
@@ -48,8 +48,9 @@
     right: 5rem;
     /* width: 15vw;
     height: 35vh; */
-    width: 50vw;
+    width: 20vw;
     height: 30vh;
+    object-fit: cover;
     border-radius: 20px;
   }
   .introContent {
@@ -65,8 +66,9 @@
   .bg {
     margin-right: 3.5rem;
     right: 20vw;
-    width: 20vw;
-    height: 24vh;
+    width: 15vw;
+    height: 28vh;
+    object-fit: cover;
     border-radius: 20px;
   }
   .introContent {
@@ -83,8 +85,10 @@
     right: 5rem;
     /* width: 15vw;
     height: 35vh; */
-    width: 30vw;
-    height: 39vh;
+    width: 17vw;
+    height: 50vh;
+    object-fit: cover;
+    margin-top: 7rem;
     border-radius: 20px;
   }
   .introContent {
