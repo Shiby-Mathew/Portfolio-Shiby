@@ -2,9 +2,13 @@
   height: calc(70vh- 4rem);
   width: 80vw;
   max-width: 75rem;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   overflow: hidden;
   position: relative;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bg {
