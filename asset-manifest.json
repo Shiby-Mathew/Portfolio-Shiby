@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-shiby/static/css/main.5478d855.css",
-    "main.js": "/portfolio-shiby/static/js/main.acdad925.js",
+    "main.css": "/portfolio-shiby/static/css/main.02706057.css",
+    "main.js": "/portfolio-shiby/static/js/main.9bef7419.js",
     "static/media/shiby.jpg": "/portfolio-shiby/static/media/shiby.9db9b3d1a4c4ba01ed07.jpg",
+    "static/media/img2.png": "/portfolio-shiby/static/media/img2.47f3201a5612843a6ca9.png",
+    "static/media/space.PNG": "/portfolio-shiby/static/media/space.90d2e24b22f30d6e64d5.PNG",
+    "static/media/portfolio1.PNG": "/portfolio-shiby/static/media/portfolio1.1f32835874c482bbfea1.PNG",
+    "static/media/shiby1.jpg": "/portfolio-shiby/static/media/shiby1.13b29c79a7018ad9dcda.jpg",
+    "static/media/portfolio2.PNG": "/portfolio-shiby/static/media/portfolio2.6353cbb2eda328eafeac.PNG",
+    "static/media/pic0.png": "/portfolio-shiby/static/media/pic0.2f44e7ec946cd7b1e7bd.png",
+    "static/media/weather.PNG": "/portfolio-shiby/static/media/weather.8ec22178dc95dcefe34d.PNG",
+    "static/media/pic5.PNG": "/portfolio-shiby/static/media/pic5.af2cc9a967125058aea4.PNG",
+    "static/media/pic4.PNG": "/portfolio-shiby/static/media/pic4.b900f21a85e912abf389.PNG",
+    "static/media/pic6.PNG": "/portfolio-shiby/static/media/pic6.aa25cbf89939def02f6b.PNG",
     "static/media/pic1.jpg": "/portfolio-shiby/static/media/pic1.aedb35069d25fa601e51.jpg",
     "index.html": "/portfolio-shiby/index.html",
-    "main.5478d855.css.map": "/portfolio-shiby/static/css/main.5478d855.css.map",
-    "main.acdad925.js.map": "/portfolio-shiby/static/js/main.acdad925.js.map"
+    "main.02706057.css.map": "/portfolio-shiby/static/css/main.02706057.css.map",
+    "main.9bef7419.js.map": "/portfolio-shiby/static/js/main.9bef7419.js.map"
   },
   "entrypoints": [
-    "static/css/main.5478d855.css",
-    "static/js/main.acdad925.js"
+    "static/css/main.02706057.css",
+    "static/js/main.9bef7419.js"
   ]
 }
