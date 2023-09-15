@@ -33,7 +33,7 @@ const projects = [
     image: "space.PNG",
     description:
       "This website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and comprehensive information about all things SpaceX",
-    repo: "https://github.com/Shiby-Mathew/Cityreviewr",
+    repo: "https://github.com/Shiby-Mathew/SpaceLink",
     live: "https://maxkeable.github.io/SpaceLink/",
   },
 

@@ -16,7 +16,9 @@ const Intro = () => {
           Developer <br /> Bootcamp from <strong> University of Sydney</strong>
         </p>
       </div>
-      <img src={bg} alt="bg" className="bg" />
+      <div>
+        <img src={bg} alt="bg" className="bg" />
+      </div>
     </section>
   );
 };

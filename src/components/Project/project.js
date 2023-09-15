@@ -5,11 +5,13 @@ import "./project.css";
 function Project({ project }) {
   return (
     <div className="project_div">
-      <img
-        className="img-responsive"
-        src={require(`../../assets/${project.image}`)}
-        alt="Project"
-      />
+      <a href={project.live} target="_blank" rel="noreferrer">
+        <img
+          className="img-responsive"
+          src={require(`../../assets/${project.image}`)}
+          alt="Project"
+        />
+      </a>
       <h2>{project.title}</h2>
       <div className="desc">
         <p>{project.description}</p>
