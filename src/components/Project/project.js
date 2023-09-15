@@ -11,18 +11,22 @@ function Project({ project }) {
         alt="Project"
       />
       <h2>{project.title}</h2>
-      <p>{project.description}</p>
+      <div className="desc">
+        <p>{project.description}</p>
+      </div>
       <h4 className="techheading">Technologies Used</h4>
-      <p>{project.languages}</p>
+      <div className="desc">
+        <p>{project.languages}</p>
+      </div>
       <button className="live-button">
         <a href={project.repo} target="_blank" rel="noreferrer">
-          See the Repo!
+          GitHub
         </a>
       </button>
       <button className="live-button">
         {" "}
         <a href={project.live} target="_blank" rel="noreferrer">
-          See the Live Application!
+          Live
         </a>
       </button>
     </div>
