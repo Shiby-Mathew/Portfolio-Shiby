@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import bg from "../../assets/shiby.jpg";
+import bg from "../../assets/shiby1.jpg";
 
 const Intro = () => {
   return (
